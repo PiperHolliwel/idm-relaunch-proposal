@@ -126,7 +126,7 @@ h3.sub { margin-top: 2.75rem; }
 .timeline { display: flex; gap: 0.25rem; margin: 1.25rem 0 0.75rem; }
 .timeline span { flex: var(--w) 1 0; min-width: 0; background: var(--accent); color: var(--accent-ink); font-size: 0.8125rem; font-weight: 650; padding: 0.5rem 0.625rem; border-radius: 0.375rem; white-space: nowrap; overflow: hidden; text-overflow: clip; }
 .timeline span:nth-child(even) { background: #3b6aa8; }
-.steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 0.75rem; counter-reset: step; }
+.steps { list-style: none; padding: 0; margin: 1.25rem 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 0.75rem; counter-reset: step; }
 .steps li { counter-increment: step; background: var(--paper); border: 1px solid var(--line); border-top: 0.3rem solid var(--accent); border-radius: 0.5rem; padding: 1rem; display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.875rem; }
 .steps b::before { content: counter(step) ". "; color: var(--accent); }
 .steps b { font-size: 0.9375rem; }
